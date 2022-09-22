@@ -103,7 +103,7 @@
     }
 }
 @media(max-width:560px){
-    .header .navbar{
+    .header .hide{
         display: none;
     }
     .find-domain-2 .domains {
@@ -149,20 +149,13 @@
         padding: 20px;
     }
     .mobile-menu .navbar span {
-        padding-bottom: 3px;
-        padding-left: 1rem;
-        border-bottom: 1px solid var(--para);
         padding-top: 4px;
-        width: 100%;
-        cursor: pointer;
-        color: var(--para);
-        transition: all 0.3s;
     }
 }        
 @media(max-width:420px){
-    .header {
+    /* .header {
         justify-content: center;
-    }
+    } */
     .services .services-box .inner-box {
         width: 100%;
     }
@@ -176,6 +169,9 @@
     }
     .input input{
         width: 100%;
+    }
+    .services .services-box {
+        padding: 0 2rem;
     }
     .logo img {
         width: 17rem;
@@ -193,9 +189,6 @@
     }
     .hero-section .hero-info h2 {
         padding: 1rem;
-    }
-    .services .services-box {
-        padding: 0 2rem;
     }
     .banner .right-banner img {
         height: 25rem;
@@ -232,17 +225,6 @@
     .header .navbar li:nth-child(1) {
         margin-right: 0.8rem;
         padding: 1rem;
-    }
-    .hamburger {
-        position: fixed;
-        top: 3%;
-        right: 1.8rem;
-        z-index: 9999;
-        cursor: pointer;
-        width: 18px;
-        height: 18px;
-        background: none;
-        border: none;
     }
     .logo img {
         width: 14rem;
